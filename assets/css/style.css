@@ -15,7 +15,7 @@ font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
 
-/* Seccion de bienvenida*/
+/* Seccion de encabezado*/
 .encabezado{
 	background-size: cover;
 	background-position: center;
@@ -34,4 +34,34 @@ font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
  	font-size :2.5rem;
  	line-height: 2.5rem;
+}
+
+/* Seccion de encabezado*/
+.panda img {
+	width: 100%;
+	height: 100%;
+	filter: grayscale(70%);
+}
+/* Seccion about */
+
+.about {
+	background-color: #ABE188;
+	padding: 90px 0;
+		border-top: 30px solid #F78E69;
+		border-bottom: 30px solid #F78E69;; 
+}
+
+#contenido {
+	background-color: #F78E69;
+	text-align: center;
+		color: white;
+		font-size: 1.5rem;
+		padding: 30px;
+		width: 90%;
+		margin : 0 auto;
+}
+
+#contenido h1 {
+	padding: 20px 0;
+	font-size: 100%;
 }
